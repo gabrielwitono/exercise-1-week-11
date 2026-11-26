@@ -1,0 +1,8 @@
+{
+  "name": "cicd-exercise-app",
+  "version": "1.0.0",
+  "description": "A simple counter webapp used to practice a CI/CD workflow.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

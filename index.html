@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CI/CD Exercise App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>CI/CD Exercise App</h1>
+    <p class="subtitle">A simple counter used to practice a CI/CD workflow.</p>
+
+    <section class="counter">
+      <button id="decrement" aria-label="Decrease counter">−</button>
+      <span id="count" class="count">0</span>
+      <button id="increment" aria-label="Increase counter">+</button>
+    </section>
+
+    <section class="actions">
+      <button id="reset">Reset</button>
+      <span id="status" class="status" role="status"></span>
+    </section>
+
+    <footer>
+      <p>Version: <span id="version">dev</span></p>
+      <p>Try: change <code>app.js</code>, run the pipeline, watch CI/CD deploy.</p>
+    </footer>
+  </main>
+
+  <script src="counter.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
